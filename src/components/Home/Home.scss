@@ -1,0 +1,94 @@
+.home{
+    width: 100%;
+    &__hero{
+        width: 700px;
+        padding: 20px;
+    }
+    &__nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #D8D8D8;
+    }
+    &--logo{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #000000;
+        text-decoration: none;
+        padding-bottom: 20px;
+    }
+    &__text{
+        display: flex;
+        align-items: center;
+    }
+    &--type{
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 29px;
+        color: #828282;
+        padding: 30px 15px;
+    }
+    &__icons{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #D8D8D8;
+    }
+    &--type2{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        color: #000000;
+    }
+    &--type3{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+    }
+    &__text2{
+        display: flex;
+        align-items: center;
+        margin-top: 70px;
+    }
+    &__head{
+        padding-left: 15px;
+    }
+    &__icon{
+        width: 586px;
+        display: flex;
+        justify-content: space-between;
+        padding: 22px 0;
+    }
+    &__next{
+        border-bottom: 1px solid #E6E6E6;
+        padding-top: 30px;
+    }
+    &--big{
+        width: 650px;
+        height: 440px;
+        padding: 10px 0;
+    }
+    &__pro{
+        position: relative;
+    }
+    &__big{
+        width: 740px;
+        height: 280px;
+    }
+    &__sm{
+position: absolute;
+top: 200px;
+left: 25px;
+bottom: 160px;
+    }
+}
+.ad{
+    padding: 5px 30px;
+    opacity: 0.4;
+    margin-bottom: 15px;
+}
+p {
+     margin-bottom: 0rem; 
+}
